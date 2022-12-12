@@ -1,0 +1,50 @@
+#main {
+    text-align: center;
+}
+
+#author_label {
+    font-size: 20px;
+}
+
+#results {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: -300%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 33%;
+}
+
+.td-head {
+    background-color: #dddddd;
+    font-weight: bold;
+}
+
+.slide-in {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: -300%;
+    }
+
+    to {
+        margin-left: 0;
+    }
+}
